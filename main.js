@@ -29,8 +29,8 @@ function gotPoses(results){
         console.log(results);
         lipsX=results[0].pose.nose.x;
         lipsY=results[0].pose.nose.y;
-        console.log("nose x= "+ results[0].pose.nose.x);
-        console.log("nose y ="+results[0].pose.nose.y);
+        console.log("lips x= "+ results[0].pose.lips.x);
+        console.log("lips y ="+results[0].pose.lips.y);
 
 
     }
